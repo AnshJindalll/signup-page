@@ -13,7 +13,7 @@ document.getElementById('registerForm').addEventListener('submit', function(even
         return;
     }
     i = phone.length
-    if(i>10){
+    if(i!=10){
         alert("Invalid Phone Number")
         return;
     }
